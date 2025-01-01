@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Membership{% endblock %}
+
+{% block content %}
+<div class="membership-section">
+    <h1>Membership Plans</h1>
+    <div class="plans">
+        <div class="plan">
+            <img src="https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=400" alt="Basic Plan" class="plan-image">
+            <h2>Basic</h2>
+            <p class="price">$29.99/month</p>
+            <ul>
+                <li>Access to gym equipment</li>
+                <li>Basic fitness assessment</li>
+                <li>Locker room access</li>
+            </ul>
+            <button class="signup-button">Sign Up</button>
+        </div>
+        <div class="plan featured">
+            <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=400" alt="Premium Plan" class="plan-image">
+            <h2>Premium</h2>
+            <p class="price">$49.99/month</p>
+            <ul>
+                <li>All Basic features</li>
+                <li>Group classes included</li>
+                <li>1 personal training session/month</li>
+                <li>Nutrition consultation</li>
+            </ul>
+            <button class="signup-button">Sign Up</button>
+        </div>
+        <div class="plan">
+            <img src="https://images.unsplash.com/photo-1540497077202-7c8a3999166f?w=400" alt="Elite Plan" class="plan-image">
+            <h2>Elite</h2>
+            <p class="price">$79.99/month</p>
+            <ul>
+                <li>All Premium features</li>
+                <li>Unlimited personal training</li>
+                <li>Priority booking</li>
+                <li>Spa access</li>
+            </ul>
+            <button class="signup-button">Sign Up</button>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<div class="hero" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1920') center/cover;">
+    <h1>Welcome to Fitness Club</h1>
+    <p>Transform your life with our state-of-the-art facilities and expert trainers</p>
+    <a href="{{ url_for('membership') }}" class="cta-button">Join Now</a>
+</div>
+
+<div class="features">
+    <div class="feature">
+        <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?w=500" alt="Modern Equipment">
+        <h2>Modern Equipment</h2>
+        <p>Access to the latest fitness equipment and technology</p>
+    </div>
+    <div class="feature">
+        <img src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=500" alt="Expert Trainers">
+        <h2>Expert Trainers</h2>
+        <p>Personal training with certified professionals</p>
+    </div>
+    <div class="feature">
+        <img src="https://media.istockphoto.com/id/1217344275/photo/group-of-people-exercising-in-fitness-class-at-gym.webp?a=1&b=1&s=612x612&w=0&k=20&c=gnGh6OXhWxtDVKPbA4SXblmDX2719LdtDBa8NvIl2jM=" alt="Group Classes">
+        <h2>Group Classes</h2>
+        <p>Join our energetic group fitness sessions</p>
+    </div>
+</div>
+{% endblock %}
