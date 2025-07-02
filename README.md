@@ -23,6 +23,7 @@ The website is split into different sections to ensure that visitors can easily 
    - **Toggle Option**: Users can toggle between monthly and annual pricing with a 20% discount on annual plans.
    - **Membership Benefits**: Detailed comparison of what each plan includes, such as access to gym floors, group classes, personal training, and recovery services.
    - **"Choose Plan" Buttons**: Direct buttons for users to select and proceed with a chosen membership plan.
+   
 
 ### 4. **Responsive Design**
    - The website is fully responsive, ensuring it provides a great user experience on both mobile and desktop devices.
@@ -40,5 +41,5 @@ The website is split into different sections to ensure that visitors can easily 
 - **Backend**: Flask (Python web framework)
 - **Styling**: Custom CSS, with use of media queries for responsive design.
 - **Icons**: Font Awesome for social media and feature icons.
-
+- **Qazi edited**: Awsome background
 
